@@ -96,7 +96,7 @@ params:
     enable: true
     intro: "Hi there! I'm "
     title: "Abhishek Kumar"
-    #subtitle: 
+    subtitle: "I develop computer vision models"
     content: "A passionate Data Science Graduate Student who loves using data to build stories and enhance products. I'm also a food Vlogger and Street Photographer ! I live in Rochester, NY"
     image: "images/me_.jpg"
     button:
