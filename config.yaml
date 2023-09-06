@@ -96,22 +96,25 @@ params:
     enable: true
     intro: "Hi there! I'm "
     title: "Abhishek Kumar"
-    subtitle: "I develop computer vision models"
-    content: "A passionate Data Science Graduate Student who loves using data to build stories and enhance products. I'm also a food Vlogger and Street Photographer ! I live in Rochester, NY"
-    image: "images/me_.jpg"
+    subtitle: "Are you looking for creative, focused, flexible and a person that loves to take initiatives? Look no further"
+    content: "I am a Computer Vision Engineer with a strong background in Computer Science and Machine Learning. \
+    Proficient in developing and implementing computer vision algorithms for a variety of applications, including image recognition, object detection, and image segmentation.\ 
+    Skilled in programming languages such as Python, C++, and deep learning frameworks like TensorFlow and PyTorch. \
+    I am always in a lookout to explore new technologies and learn new languages."
+    image: "/images/IMG_1202.jpeg"
     button:
       background - color: 
       enable: true
       name: "Resume"
-      url: "https://docs.google.com/document/d/1vUD64RGPchMDKgRPX353InBAEOTC_TTVSYW-88v7e9s/edit?usp=sharing"
+      url: "static/Abhishek_Kumar_Resume.pdf"
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
-          url: https://github.com/Keerthi-Sreenivas
+          url: https://github.com/abhinine4
         - icon: fab fa-linkedin
-          url: https://www.linkedin.com/in/keerthi-sreenivas-90b78a185/
-        - icon: fab fa-instagram
-          url: https://www.instagram.com/accounts/login/?next=/keerthi__sreenivas/
+          url: https://www.linkedin.com/in/akumar58
+        # - icon: fab fa-twitter
+        #   url: 
       #customIcons:
         #- icon: /fav.png
         #  url: "https://example.com"
@@ -119,93 +122,97 @@ params:
   # About
   about:
     enable: true
-    title: "I'm Open to work from December 2022"
-    image: "/images/tempImageuVymn1_adobe_express.jpeg"
+    title: "I'm Open to work from September 2023"
+    image: "/images/IMG_0521.JPG"
     content: |-
-     Currently working as Data Science Intern at Allogene Therapeutics https://allogene.com
-     A Masters in Data Science student with 4+ years of academic experience in Python, R, Machine Learning and Big Data. 
-     I have a strong interest in the the intersection of Technology and Business.
+     I have a Masters degree in Computer Science with 3+ year experience in software development. I'm interested in building scalable and reliable deep computer vision applications. \
+     Previously, I worked with Dr. David Doermann to built analytic components to detect manipulations and inconsistencies in online news media for SemaFor(DARPA). \ 
+     I build most frequently with Python, C++, PyTorch.
      
     skills:
       enable: true
       title: "Skills:"
       items:
-        - "Python, R, SQL, Spark in Databricks, Sci-Kit Learn, MLops, AWS"
-        - "Mentorship, Multi-Cultural Fluency, Team Player"
+        - "Python, Pytorch, C++, Java, SQL, Tensorflow"
+        - "Docker, Git, Linux, NumPy, Pandas, Sci-Kit Learn, OpenCV"
        
 
   # Experience
   experience:
     enable: true
     items:      
-      - job: "Data Science Intern"
-        company: "Allogene - Cancer Research"
-        companyUrl: "https://example.com"
-        date: "May 2022 - Aug 2022"
+      - job: "Computer Vision Researcher"
+        company: "IAD (Institue for Artificial Intellligence and Data Science)"
+        companyUrl: "https://www.buffalo.edu/ai-data-science.html"
+        date: "Sept 2022 - Aug 2023"
         info:
           enable: true
-          content: "Location: San Francisco, CA "
+          content: "Location: Buffalo, NY "
         featuredLink:
           enable: false
-          url: "https://example.com"
+          url: "https://www.buffalo.edu/ai-data-science.html"
         content: |
-          San Francisco, California
-          - Developed a Data Issue tracker dashboard application in R to reduce time in communication issues in data by 70% which replaced existing licensed software thereby saving $80,000 annually for the company
-          - Performed stakeholder analysis and translated functional requirements to build the roadmap for iterative development.
-          - Synthesized User-friendly front-end layouts and designed actionable metrics in the dashboard for the Analytics Team
-          - Worked with cross-functional teams to automate object extraction in and performed ETL to store it in Aws S3 buckets.
-          - Built a practice to write efficient and reusable code with configuration files with minimal technical debt
+          Buffalo, New York
+          - Built CNN model to detect tampered images by analyzing JPEG compression errors with ~ 94% accuracy.
+          - Researched on constrained convolutions to localize manipulations in news images using noise and edge features.
+          - Developed object labelling module to label small objects within manipulated regions in images using YOLO.
+          - Designed a baseline model to detect multimodal (image & text) inconsistency in online news articles.
+          - Developed text transformer tool that performs controlled text replacements to create multimodal inconsistent data.
 
       
-      - job: "Teaching Assitant - Big Data"
-        company: "Simon Business School"
-        companyUrl: "http://simon.rochester.edu"
-        date: "Oct 2020 - May 2021"
+      - job: "Teaching Assitant - CSE 701/702"
+        company: "University At Buffalo"
+        companyUrl: "https://www.buffalo.edu/"
+        date: "June 2022 - Aug 2022"
         info:
           enable: true
-          content: "Location: Rochester, NY"
+          content: "Location: Buffalo, NY"
         featuredLink:
           enable: false
-          url: "http://simon.rochester.edu"
+          url: "https://www.buffalo.edu/"
         info:
           content:
         content: |-
-          Rochester, NY
-          - Conducted weekly doubt-solving sessions & taught 200+ students on Big data tools like: Hadoop, Hive, PySpark, Databricks
-          - Assisted students in connecting and file sharing in Hadoop clusters hosted on AWS S3 and other ad-hoc data democratization tasks.
+          Buffalo, New York
+          - Guided students to develop deep learning projects for video analysis in sports domain for CSE 701/702.
+          - Conducted classes, graded assignments, and reviewed students technical presentations.
 
-      - job: "Technical Instructor Intern"
-        company: "KITOLIT"
-        companyUrl: "https://www.kitolit.com"
-        date: "Jul 2020 - Nov 2020"
+      - job: "Software Engineer"
+        company: "Infosys"
+        companyUrl: "https://www.infosys.com/"
+        date: "Feb 2018 - Aug 2020"
         info:
           enable: true
-          content: "Location: Hyderabad, India"
+          content: "Location: Bhubaneswar, India"
         featuredLink:
           enable: false
-          url: "https://www.kitolit.com"
+          url: "https://www.infosys.com/"
         info:
-          content: Generated a revenue of $6,400 for the startup by offering one-on-one sessions during late/early hours from India for students in the USA, designing course structure and content.
+          content:
         content: |-
-          Hyderabad, India
-          - Designed the curriculum and produced Content for an experiential learning course “Javascript  for Middle School Kids” by creating fun and interactive lessons  increasing enrollment by 45% Qtr over Qtr
-          - Offered one-on-one Mentoring  sessions from India for students in the USA henceforth generating revenue of $6,400   
+          Bhubaneswar, India
+          - Developed task delegation system for PLM application in Python to manage production workflows for CUMMINS.
+          - Built REST API in Flask to parse delegation data from JSON files received in hourly batches.
+          - Automated batch jobs with robotic process automation reducing transfer failure rate by 20%.
+          - Designed Pricing System for Fleet Guard parts in Java to ensure accurate and reliable data management.
+          - Implemented efficient shell scripts for data extraction, parsing and transfer across 6 pricing interfaces.
+          - Managed deployment and maintenance pipelines using Jenkins and Git ensuring system availability and reliability.   
           
-      - job: "IoT Intern"
-        company: " BITS Pilani Indibots "
-        companyUrl: "https://www.f6s.com/indibots"
-        date: "June 2018 - July 2018"
-        info:
-          enable: true
-          content: "Location: Hyderabad, India "
-        featuredLink:
-          enable: false
-          url: "https://www.kitolit.com"
-        content: |-
-          Hyderabad, India
-          - Worked on Developing a Smart Medicine reminder kit and Collaborated with other interns to define the features of the Device.
-          - Designed the Circuit Diagram.
-          - Presented Demo's to several Professors.
+      # - job: "IoT Intern"
+      #   company: " BITS Pilani Indibots "
+      #   companyUrl: "https://www.f6s.com/indibots"
+      #   date: "June 2018 - July 2018"
+      #   info:
+      #     enable: true
+      #     content: "Location: Hyderabad, India "
+      #   featuredLink:
+      #     enable: false
+      #     url: "https://www.kitolit.com"
+      #   content: |-
+      #     Hyderabad, India
+      #     - Worked on Developing a Smart Medicine reminder kit and Collaborated with other interns to define the features of the Device.
+      #     - Designed the Circuit Diagram.
+      #     - Presented Demo's to several Professors.
 
 
   # Education
@@ -325,7 +332,7 @@ params:
   contact:
     enable: true
     content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
-    email: keerthikonjety9@gmail.com
+    email: akumar58@buffalo.edu
     btnName: Mail me
 
   footer:
