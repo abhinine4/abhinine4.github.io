@@ -328,7 +328,7 @@ params:
             url: https://github.com/abhinine4/image_denoiser
       
       - title: Player Re-Identification
-        content: Designed a dual branch deep learning model to re-identify soccer players across multiple camera viewpoints depicting the same action during the game. 
+        content: Designed a dual branch deep learning model to re-identify soccer players across multiple camera viewpoints depicting the same action during the game. Fused appearence and body part features from a subnet of OpenPose using Compact bilinear pooling to get the fused features. 
         image: /images/projects/reid.png
         featured:
           name: Click here to know more!
