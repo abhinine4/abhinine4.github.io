@@ -284,7 +284,7 @@ params:
     items:
       - title: Temporal Action Spotting
         content: Implemented a transformer based model with multiscale flow and RGB features to classify actions and identify temporal boundaries for 17 action classes. Achieved 52 % mAP and ranked 5th in Soccernet competition. 
-        image: /images/action.png
+        image: /action.png
         featured:
           name: Click here to know more!
           link: https://www.soccer-net.org/tasks/action-spotting
@@ -302,7 +302,7 @@ params:
 
       - title: Text-to-Image unsing Residual GANs
         content: Developed a Deep Residual GAN network to create images from latent noise. Used BIRD CUB-200 dataset to train the model. 
-        image: /images/gan.png
+        image: /gan.png
         featured:
           name: Click here to know more!
           link: https://github.com/abhinine4/TextToimage_Residual_GANs/blob/main/Final_Report_CSE676.pdf
@@ -315,7 +315,7 @@ params:
 
       - title: Player Re-Identification
         content: Designed a dual branch deep learning model to re-identify soccer players across multiple camera viewpoints depicting the same action during the game. 
-        image: /images/reid.png
+        image: /reid.png
         featured:
           name: Click here to know more!
           link: https://github.com/abhinine4/Soccerplayer_Reidentification/blob/main/images/soccer_player_reid_report.pdf
@@ -329,7 +329,7 @@ params:
 
       - title: Splice Detector
         content: A Deep Convolutional Neural Network model to detect manipulated images using JPEG compression analysis. 
-        image: /images/splice.png
+        image: /splice.png
         featured:
           name: Click here to know more!
           link: https://github.com/abhinine4/Image_splice_detection
@@ -343,7 +343,7 @@ params:
 
       - title: Image Denoiser
         content: Developed a CNN model in PyTorch that uses residual learning on deep CNNs to remove noise from iamges.
-        image: /images/denoise.png
+        image: /denoise.png
         featured:
           name: Click here to know more!
           link: https://github.com/abhinine4/image_denoiser
