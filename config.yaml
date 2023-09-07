@@ -96,17 +96,14 @@ params:
     enable: true
     intro: "Hi there! I'm "
     title: "Abhishek Kumar"
-    subtitle: "Are you looking for creative, focused, flexible and a person that loves to take initiatives? Look no further"
-    content: "I am a Computer Vision Engineer with a strong background in Computer Science and Machine Learning. \
-    Proficient in developing and implementing computer vision algorithms for a variety of applications, including image recognition, object detection, and image segmentation.\ 
-    Skilled in programming languages such as Python, C++, and deep learning frameworks like TensorFlow and PyTorch. \
-    I am always in a lookout to explore new technologies and learn new languages."
+    subtitle: "Are you looking for creative and focused person that loves to take initiatives? Look no further"
+    content: "I am a Computer Vision Engineer with a strong background in Computer Science and Machine Learning and proficient in developing and implementing computer vision algorithms for a variety of applications, including image recognition, object detection, and image segmentation. I build most frequently with Python, C++, PyTorch"
     image: "/images/IMG_1202.jpeg"
     button:
       background - color: 
       enable: true
       name: "Resume"
-      url: "static/Abhishek_Kumar_Resume.pdf"
+      url: "https://github.com/abhinine4/resume/blob/main/Abhishek_Kumar_Resume.pdf"
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
@@ -125,18 +122,23 @@ params:
     title: "I'm Open to work from September 2023"
     image: "/images/IMG_0521.JPG"
     content: |-
-     I have a Masters degree in Computer Science with 3+ year experience in software development. I'm interested in building scalable and reliable deep computer vision applications. \
-     Previously, I worked with Dr. David Doermann to built analytic components to detect manipulations and inconsistencies in online news media for SemaFor(DARPA). \ 
-     I build most frequently with Python, C++, PyTorch.
+     I have a Masters degree in Computer Science with 3+ year experience in software development. I'm interested in building scalable and reliable deep computer vision applications. Previously, I worked with Dr. David Doermann to built analytic components to detect manipulations and inconsistencies in online news media for SemaFor(DARPA).
      
+     I am currently working on a project that can detect small object in manipulated images using a diffusion based segmentation method.
     skills:
       enable: true
-      title: "Skills:"
+      title: "Here are a few technologies I've been working with recently:"
       items:
-        - "Python, Pytorch, C++, Java, SQL, Tensorflow"
-        - "Docker, Git, Linux, NumPy, Pandas, Sci-Kit Learn, OpenCV"
+        - "Python" 
+        - "C++"
+        - Pytorch"
+        - "NumPy"
+        - "OpenCV"
+        - "Sci-Kit Learn"
+        - "Docker"
+        - "Git"
+        - "Linux"
        
-
   # Experience
   experience:
     enable: true
