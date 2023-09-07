@@ -302,7 +302,7 @@ params:
 
       - title: Text-to-Image unsing Residual GANs
         content: Developed a Deep Residual GAN network to create images from latent noise. Used BIRD CUB-200 dataset to train the model. 
-        image: /images/projects/gan.png
+        image: /images/projects/bird.png
         featured:
           name: Click here to know more!
           link: https://github.com/abhinine4/TextToimage_Residual_GANs/blob/main/Final_Report_CSE676.pdf
