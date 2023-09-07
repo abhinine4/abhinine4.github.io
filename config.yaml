@@ -122,7 +122,7 @@ params:
     title: "I'm Open to work from September 2023"
     image: "/images/IMG_0521.JPG"
     content: |-
-     I have a Masters degree in Computer Science with 3+ year experience in software development. I'm interested in building scalable and reliable deep computer vision applications. Previously, I worked with Dr. David Doermann to built analytic components to detect manipulations and inconsistencies in online news media for SemaFor(DARPA).
+     I have a Masters degree in Computer Science with 3+ year experience in software development. I'm interested in building scalable and reliable deep computer vision applications. Previously, I worked with Dr. David Doermann to built analytic components to detect manipulations and inconsistencies in online news media for SemaFor (DARPA).
      
      I am currently working on a project that can detect small object in manipulated images using a diffusion based segmentation method.
     skills:
@@ -300,7 +300,7 @@ params:
           # - icon: fab fa-twitter
           #  url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
 
-      - title: Text-to-Image unsing Residual GANs
+      - title: Text-to-Image using Residual GANs
         content: Developed a Deep Residual GAN network to create images from latent noise. Used BIRD CUB-200 dataset to train the model. 
         image: /images/projects/bird.png
         featured:
@@ -313,6 +313,20 @@ params:
           - icon: fab fa-github
             url: https://github.com/abhinine4/TextToimage_Residual_GANs
 
+      - title: Image Denoiser
+        content: Developed a CNN model in PyTorch that uses residual learning on deep CNNs to remove noise from iamges.
+        image: /images/projects/denoise.png
+        featured:
+          name: Click here to know more!
+          link: https://github.com/abhinine4/image_denoiser
+        # badges:
+        #   - "Hugo"
+        #   - "Bootstrap"
+        #   - "Javascript"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/abhinine4/image_denoiser
+      
       - title: Player Re-Identification
         content: Designed a dual branch deep learning model to re-identify soccer players across multiple camera viewpoints depicting the same action during the game. 
         image: /images/projects/reid.png
@@ -340,20 +354,6 @@ params:
         links:
           - icon: fab fa-github
             url: https://github.com/abhinine4/Image_splice_detection
-
-      - title: Image Denoiser
-        content: Developed a CNN model in PyTorch that uses residual learning on deep CNNs to remove noise from iamges.
-        image: /images/projects/denoise.png
-        featured:
-          name: Click here to know more!
-          link: https://github.com/abhinine4/image_denoiser
-        # badges:
-        #   - "Hugo"
-        #   - "Bootstrap"
-        #   - "Javascript"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/abhinine4/image_denoiser
 
   #Contact
   contact:
