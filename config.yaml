@@ -97,7 +97,7 @@ params:
     intro: "Hi there! I'm "
     title: "Abhishek Kumar"
     subtitle: "Are you looking for a creative and focused person that loves to take initiatives? Look no further"
-    content: "I am a Computer Vision Engineer with a strong background in Computer Science and Machine Learning and proficient in developing and implementing computer vision algorithms for a variety of applications, including image recognition, object detection, and image segmentation. I build most frequently with Python, C++, PyTorch."
+    content: "I am a Computer Vision Engineer with a strong background in Computer Science and Machine Learning. I am proficient in developing and implementing computer vision algorithms for a variety of applications, including image recognition, object detection, and image segmentation. I build most frequently with Python, C++, PyTorch."
     image: "/images/IMG_1202.jpeg"
     button:
       background - color: 
@@ -110,8 +110,8 @@ params:
           url: https://github.com/abhinine4
         - icon: fab fa-linkedin
           url: https://www.linkedin.com/in/akumar58
-        # - icon: fab fa-twitter
-        #   url: 
+        - icon: fab fa-twitter
+          url: https://x.com/abhisheknine4?s=21&t=os1o0Mn6cMj4MsjwS_19Iw
       #customIcons:
         #- icon: /fav.png
         #  url: "https://example.com"
@@ -367,6 +367,6 @@ params:
     socialNetworks:
       github: https://github.com/abhinine4
       linkedin: https://www.linkedin.com/in/akumar58
-    # twitter: https://twitter.com
+      twitter: https://x.com/abhisheknine4?s=21&t=os1o0Mn6cMj4MsjwS_19Iw
       # instagram: https://www.instagram.com/keerthi__sreenivas/
     # facebook: https://facebook.com
