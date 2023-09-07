@@ -144,22 +144,25 @@ params:
   experience:
     enable: true 
     items: 
-      - job: "Teaching Assitant - CSE 701/702"
-        company: "University At Buffalo"
-        companyUrl: "https://www.buffalo.edu/"
-        date: "June 2022 - Aug 2022"
+      - job: "Computer Vision Researcher"
+        company: "IAD"
+        companyUrl: "https://www.buffalo.edu/ai-data-science.html"
+        date: "Sept 2022 - Aug 2023"
         info:
           enable: true
           content: "Location: Buffalo, NY"
         featuredLink:
           enable: false
-          url: "https://www.buffalo.edu/"
+          url: "https://www.buffalo.edu/ai-data-science.html"
         info:
           content:
         content: |-
           Buffalo, New York
-          - Guided students to develop deep learning projects for video analysis in sports domain for CSE 701/702.
-          - Conducted classes, graded assignments, and reviewed students technical presentations.
+          - Built CNN model to detect tampered images by analyzing JPEG compression errors with ~ 94% accuracy.
+          - Researched on constrained convolutions to localize manipulations in news images using noise and edge features.
+          - Created object labelling module to label small objects within manipulated regions in images using YOLO.
+          - Designed a baseline model to detect multimodal (image & text) inconsistency in online news articles.
+          - Developed text transformer tool that performs controlled text replacements to create multimodal inconsistent data.
 
       - job: "Teaching Assitant - CSE 701/702"
         company: "University At Buffalo"
