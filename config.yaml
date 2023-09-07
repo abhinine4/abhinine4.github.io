@@ -142,7 +142,8 @@ params:
        
   # Experience
   experience:
-    enable: true  
+    enable: true 
+    items: 
       - job: "Teaching Assitant - CSE 701/702"
         company: "University At Buffalo"
         companyUrl: "https://www.buffalo.edu/"
