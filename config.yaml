@@ -96,8 +96,8 @@ params:
     enable: true
     intro: "Hi there! I'm "
     title: "Abhishek Kumar"
-    subtitle: "Are you looking for creative and focused person that loves to take initiatives? Look no further"
-    content: "I am a Computer Vision Engineer with a strong background in Computer Science and Machine Learning and proficient in developing and implementing computer vision algorithms for a variety of applications, including image recognition, object detection, and image segmentation. I build most frequently with Python, C++, PyTorch"
+    subtitle: "Are you looking for a creative and focused person that loves to take initiatives? Look no further"
+    content: "I am a Computer Vision Engineer with a strong background in Computer Science and Machine Learning and proficient in developing and implementing computer vision algorithms for a variety of applications, including image recognition, object detection, and image segmentation. I build most frequently with Python, C++, PyTorch."
     image: "/images/IMG_1202.jpeg"
     button:
       background - color: 
@@ -131,10 +131,11 @@ params:
       items:
         - "Python" 
         - "C++"
-        - Pytorch"
+        - "Pytorch"
         - "NumPy"
         - "OpenCV"
         - "Sci-Kit Learn"
+        - "AWS"
         - "Docker"
         - "Git"
         - "Linux"
@@ -153,7 +154,7 @@ params:
         featuredLink:
           enable: false
           url: "https://www.buffalo.edu/ai-data-science.html"
-        content: |
+        content: |-
           Buffalo, New York
           - Built CNN model to detect tampered images by analyzing JPEG compression errors with ~ 94% accuracy.
           - Researched on constrained convolutions to localize manipulations in news images using noise and edge features.
@@ -222,42 +223,40 @@ params:
     enable: true
     # index: true
     items:
-      - title: "Masters in Data Science (Business Concentration)"
+      - title: "Masters in Computer Science (Machine Learning and Computer Vision)"
         school:
-          name: "University of Rochester, New York"
-          url: "https://www.rochester.edu"
-        date: "2021 - 2022"
-        GPA: "3.7 out of 4.0"
+          name: "University at Buffalo, New York"
+          url: "https://www.buffalo.edu/"
+        date: "2021 - 2023"
+        GPA: "3.72 out of 4.0"
         content: |-
-            - Was a Teaching Assistant for Big Data at the Simon Business School, University of Rochester
-            - Worked as a Research assistant to pre-process Bio-Medical Image data for training a U-Net Deep Learning Algorithm in the Machine Learning team at the Vaccine Biology and Dermatology labs in University Medical Center
-            - Attending Grace Hopper 2022 Conference with University Scholarship
-            - Course Work: Data Science at scale, Machine Learning, Applied Statistical Methods, Data Mining, Technical Entrepreneurship, Time Series analysis and forecasting.
-
+            - Worked as a Computer Vision Research Assistant in the IAD lab under Dr.David Doermann.
+            - Built analytic components for SemaFor (DARPA) as part of the UB-SRI team.
+            - Researched and wrote my thesis on : Forensic Systems to Detected Manipulated News Media.
+            - Was a Teaching Assistant for graduate level courses (CSE 701/702), sports video analytics at University at Buffalo.
+            - Guided students to develop deep learning projects for video analysis.
+            - Courses : Deep Learing, Computer Vision and Image Processing, Machine Learning, Information Retrieval, Neurosymbolic AI (seminar), Distributed Systems, Analysis and Design of Algorithms.
+            
+            
             Extracurricular Activities
-             - Won first place in the Creative Collision Challenge 2022 Pitching competition 
-             - Conducted and Mentored a Zumba workshop under Rochester Indian Association
-             - Active member of UR Photography club
-      - title: "Bachelor of Technology in Computer Science and Engineering (Hons.)"
-        school:
-          name: "Indian Institute of Information Technology(IIIT), Kottayam"
-          url: "http://www.iiitkottayam.ac.in/#!/home"
-        date: "2017 - 2021"
-        GPA: "8.96 out of 10"
-        content: |- 
-          - Main Author for the research presentation “IoT based Smart Medicine Reminder Kit” at ACM/CSI/IEEE-CS Research and Industry Symposium at IIIT Kottayam.
-          - Co-Founded Proxima an Image processing based Start-up for Smart Badminton and Yoga instruction with Feedback using Deeplearning.
-          - Data Science Courses: Artificial Intelligence, Data Warehousing and  Data Mining, Big Data Analytics, Predictive Analytics, Database Management, 
-          - Computer Science Courses: Cloud Computing, Cryptography and Network Security, Computer Programming, Data Structures, Computer Networks, Computer Organization, Compiler Design, Block Chain Technology, IoT (Internet of Things), Operating Systems, Soft Computing, Distributed and Parallel Computing, High Performance Computing, Theory of Computation, Object Oriented Analysis and Design,
-          - Software Management Courses: Software Engineering and Project Management, Software Design Patterns
-          - Other Courses: Personality Development, Communication Skills, Economics, Human Resource Management, Financial Management and Accounting, Operation and Supply Chain Management
-          
-          
+             - Ranked 3rd in UB Hack(org. by MLH) for our Decentralized News Platform 
+             - Ranked 7th in Soccernet 2022 competition for our work on soccer player re-identification in broadcast videos.
 
+      - title: "Bachelor of Technology in Mechanical Engineering"
+        school:
+          name: "SRM University, Chennai"
+          url: "https://www.srmist.edu.in/"
+        date: "2013 - 2017"
+        GPA: "3.94 out of 4"
+        content: |- 
+          - Researched on Carbon nano-tube infused phase change materials to create efficient cooling fluids.
+          - Relevant Courses: Robotics, Probability and Statistics, Linear Algebra, Numerical Methods, Matlab, Advanced Calculus.
+          
           Extracurricular Activities
-            - Won 2nd place All India in Smart India Hackathon 2020 for developing a Smart Yoga Instructor with feedback using Deep Learning
-            - Was the Elected Cultural Club Secretary from 2019-2021
-            - Won several Photography competitions during all 4 years.
+            - Won 2nd Prize in the annual tech fest (Aaruush'14) for our Infrared based line follower robot.
+            - Active member of the Photography club.
+          
+            
 
   #featuredLink:
   #enable: true
@@ -265,21 +264,21 @@ params:
   #url: "https://example.com"
 
   # Achievements
-  achievements:
-    enable: true
-    items:
-      #- title: Smart India Hackathon 2020
-       # content: Won 2nd place in Smart India Hackathon 2020 for developing a Smart Yoga Instructor with feedback using Deep Learning
-        #url: "https://www.sih.gov.in"
-      - title: Creative Collision Challenge 2022
-        content: Won 1st Place at the University of Rochester AIN Entrepreneurship cell's yearly pitching competition.
-      - title: Women Entrepreneurship Week Candidate 2020
-        content: Was selected to meet a Senior Director from Jio Industries for a discussion about the Smart Yoga Instructor application AIC Incubation Center at IIIT Kottayam.
-      - title: Elected Cultural Secretary 2019 - 2021
-        content: Conducted 15+ events with a footprint of more than 300+ students and Managed a team of 25 students for fundraising and event organization # Conducted events virtually during COVID for effective engagement among new students.
-        url: "https://www.iiitkottayam.ac.in/#!/culturalClub"
-      - title: Presented my paper at ACM/CSI/IEEE-CS Conference. 
-        content: Author of “IoT based Smart Medicine Reminder Kit” at ACM/CSI/IEEE-CS Research and Industry Symposium at IIIT Kottayam (My Bachelor's Honors Project)
+  # achievements:
+  #   enable: true
+  #   items:
+  #     #- title: Smart India Hackathon 2020
+  #      # content: Won 2nd place in Smart India Hackathon 2020 for developing a Smart Yoga Instructor with feedback using Deep Learning
+  #       #url: "https://www.sih.gov.in"
+  #     - title: Creative Collision Challenge 2022
+  #       content: Won 1st Place at the University of Rochester AIN Entrepreneurship cell's yearly pitching competition.
+  #     - title: Women Entrepreneurship Week Candidate 2020
+  #       content: Was selected to meet a Senior Director from Jio Industries for a discussion about the Smart Yoga Instructor application AIC Incubation Center at IIIT Kottayam.
+  #     - title: Elected Cultural Secretary 2019 - 2021
+  #       content: Conducted 15+ events with a footprint of more than 300+ students and Managed a team of 25 students for fundraising and event organization # Conducted events virtually during COVID for effective engagement among new students.
+  #       url: "https://www.iiitkottayam.ac.in/#!/culturalClub"
+  #     - title: Presented my paper at ACM/CSI/IEEE-CS Conference. 
+  #       content: Author of “IoT based Smart Medicine Reminder Kit” at ACM/CSI/IEEE-CS Research and Industry Symposium at IIIT Kottayam (My Bachelor's Honors Project)
 
   # projects
   projects:
