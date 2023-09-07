@@ -161,6 +161,23 @@ params:
           - Guided students to develop deep learning projects for video analysis in sports domain for CSE 701/702.
           - Conducted classes, graded assignments, and reviewed students technical presentations.
 
+      - job: "Teaching Assitant - CSE 701/702"
+        company: "University At Buffalo"
+        companyUrl: "https://www.buffalo.edu/"
+        date: "June 2022 - Aug 2022"
+        info:
+          enable: true
+          content: "Location: Buffalo, NY"
+        featuredLink:
+          enable: false
+          url: "https://www.buffalo.edu/"
+        info:
+          content:
+        content: |-
+          Buffalo, New York
+          - Guided students to develop deep learning projects for video analysis in sports domain for CSE 701/702.
+          - Conducted classes, graded assignments, and reviewed students technical presentations.
+
       - job: "Software Engineer"
         company: "Infosys"
         companyUrl: "https://www.infosys.com/"
