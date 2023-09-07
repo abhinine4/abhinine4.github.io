@@ -265,18 +265,18 @@ params:
   #url: "https://example.com"
 
   # Achievements
-  certifications:
-    enable: true
-    items:
-      - title: Creative Collision Challenge 2022
-        content: Won 1st Place at the University of Rochester AIN Entrepreneurship cell's yearly pitching competition.
-      - title: Women Entrepreneurship Week Candidate 2020
-        content: Was selected to meet a Senior Director from Jio Industries for a discussion about the Smart Yoga Instructor application AIC Incubation Center at IIIT Kottayam.
-      - title: Elected Cultural Secretary 2019 - 2021
-        content: Conducted 15+ events with a footprint of more than 300+ students and Managed a team of 25 students for fundraising and event organization # Conducted events virtually during COVID for effective engagement among new students.
-        url: "https://www.iiitkottayam.ac.in/#!/culturalClub"
-      - title: Presented my paper at ACM/CSI/IEEE-CS Conference. 
-        content: Author of “IoT based Smart Medicine Reminder Kit” at ACM/CSI/IEEE-CS Research and Industry Symposium at IIIT Kottayam (My Bachelor's Honors Project)
+  # achievements:
+  #   enable: true
+  #   items:
+  #     - title: Creative Collision Challenge 2022
+  #       content: Won 1st Place at the University of Rochester AIN Entrepreneurship cell's yearly pitching competition.
+  #     - title: Women Entrepreneurship Week Candidate 2020
+  #       content: Was selected to meet a Senior Director from Jio Industries for a discussion about the Smart Yoga Instructor application AIC Incubation Center at IIIT Kottayam.
+  #     - title: Elected Cultural Secretary 2019 - 2021
+  #       content: Conducted 15+ events with a footprint of more than 300+ students and Managed a team of 25 students for fundraising and event organization # Conducted events virtually during COVID for effective engagement among new students.
+  #       url: "https://www.iiitkottayam.ac.in/#!/culturalClub"
+  #     - title: Presented my paper at ACM/CSI/IEEE-CS Conference. 
+  #       content: Author of “IoT based Smart Medicine Reminder Kit” at ACM/CSI/IEEE-CS Research and Industry Symposium at IIIT Kottayam (My Bachelor's Honors Project)
 
   # projects
   projects:
@@ -284,7 +284,7 @@ params:
     items:
       - title: Temporal Action Spotting
         content: Implemented a transformer based model with multiscale flow and RGB features to classify actions and identify temporal boundaries for 17 action classes. Achieved 52 % mAP and ranked 5th in Soccernet competition. 
-        image: /images/projects/Colorization3.png
+        image: /images/action.png
         featured:
           name: Click here to know more!
           link: https://www.soccer-net.org/tasks/action-spotting
@@ -302,7 +302,7 @@ params:
 
       - title: Text-to-Image unsing Residual GANs
         content: Developed a Deep Residual GAN network to create images from latent noise. Used BIRD CUB-200 dataset to train the model. 
-        image: /images/projects/doge4.jpeg
+        image: /images/gan.png
         featured:
           name: Click here to know more!
           link: https://github.com/abhinine4/TextToimage_Residual_GANs/blob/main/Final_Report_CSE676.pdf
@@ -315,7 +315,7 @@ params:
 
       - title: Player Re-Identification
         content: Designed a dual branch deep learning model to re-identify soccer players across multiple camera viewpoints depicting the same action during the game. 
-        image: /images/projects/advert1.jpeg
+        image: /images/reid.png
         featured:
           name: Click here to know more!
           link: https://github.com/abhinine4/Soccerplayer_Reidentification/blob/main/images/soccer_player_reid_report.pdf
@@ -329,7 +329,7 @@ params:
 
       - title: Splice Detector
         content: A Deep Convolutional Neural Network model to detect manipulated images using JPEG compression analysis. 
-        image: /images/projects/advert1.jpeg
+        image: /images/splice.png
         featured:
           name: Click here to know more!
           link: https://github.com/abhinine4/Image_splice_detection
@@ -343,7 +343,7 @@ params:
 
       - title: Image Denoiser
         content: Developed a CNN model in PyTorch that uses residual learning on deep CNNs to remove noise from iamges.
-        image: /images/projects/advert1.jpeg
+        image: /images/denoise.png
         featured:
           name: Click here to know more!
           link: https://github.com/abhinine4/image_denoiser
