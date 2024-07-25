@@ -171,31 +171,6 @@ params:
 
       - job: "Computer Vision Researcher"
         company: "A2IL"
-        companyUrl: ""
-        date: "Sept 2022 - Feb 2024"
-        info:
-          enable: true
-          content: "Location: Buffalo, NY"
-        featuredLink:
-          enable: false
-          url: ""
-        info:
-          content:
-        content: |-
-          Buffalo, New York
-          - Created a text+pose guided image generation system using latent diffusion models (ControlNet with Stable diffusion weights). 
-          - Added noise and performed latent interpolation on best pair human face images to generate high-resolution morphs.
-          - Generated images at different noise levels and selected the best candidate by computing CLIP similarity scores for fixed prompts.
-          - Developed an image manipulation detection system to detect, localize, and label tampered parts in news articles. \hyperlink{https://github.com/abhinine4/news_forensics/blob/main/Kumar\%2CAbhishek.pdf}{Thesis}
-          - Trained a CNN model with a Resnet-50 backbone to detect jpeg compression errors in tampered images with 93% accuracy.
-          - Utilized NEDB-Net to extract noise and edge-based features to localize and get manipulation masks for the tampered regions.
-          - Fine-tuned a custom Yolo-v8 model to detect objects in the localized regions and classify them into 18 categories.
-          - Created analytic containers to detect image text inconsistencies in multimodal news articles.
-          - Developed a text-transformer tool to perform controlled named entity and parts of speech replacements in texts using SpaCy.
-          - Extracted text from images using Paddle OCR and developed contradiction and mismatch detection algorithms to detect inconsistencies between image text and news body.
-
-      - job: "Computer Vision Researcher"
-        company: "A2IL"
         companyUrl: "https://www.buffalo.edu/ai-data-science.html"
         date: "Sept 2022 - Feb 2024"
         info:
@@ -203,7 +178,7 @@ params:
           content: "Location: Buffalo, NY"
         featuredLink:
           enable: false
-          url: "https://www.buffalo.edu/ai-data-science.html"
+          url: ""
         info:
           content:
         content: |-
