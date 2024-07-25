@@ -613,11 +613,11 @@ as an applied scientist to leverage my expertise in solving complex real-world p
                                 type="button"
                                 role="tab" 
                                 data-bs-toggle="pill"
-                                id='A2IL-(now-IAD)-Sept-2022---Feb-2024-tab'
-                                data-bs-target='#pills-A2IL-(now-IAD)-Sept-2022---Feb-2024' 
-                                aria-controls='A2IL-(now-IAD)-Sept-2022---Feb-2024'
+                                id='A2IL-Sept-2022---Feb-2024-tab'
+                                data-bs-target='#pills-A2IL-Sept-2022---Feb-2024' 
+                                aria-controls='A2IL-Sept-2022---Feb-2024'
                             >
-                                A2IL (now IAD)
+                                A2IL
                             </div>
                         </li>
                         
@@ -721,14 +721,16 @@ as an applied scientist to leverage my expertise in solving complex real-world p
                             <div class="pt-2">
                                 <p>Buffalo, New York</p>
 <ul>
-<li>Developed a financial advisory chatbot based on user transactional patterns using Langchain, MongoDB, Django, and LLMs.</li>
-<li>Created a multiclass scope checker module that classifies questions and provides standard responses for out-of-scope questions.</li>
-<li>Developed a RAG pipeline with a question2mongo query generation module that prompts LLM models with extracted information from question and parameter mappings to generate mongo query required to retrieve custom user data.</li>
-<li>Utilized Weaviate DB as a caching system to cache templated queries and metadata to lower system latency and reduce API cost.</li>
-<li>Added few shot prompting and user-level feedback to improve query generation accuracy.</li>
-<li>Designed a text manipulator system that takes in users' transactional categories, subcategories, banks, payment modes, and merchants to create similar follow-up questions for user engagement.</li>
-<li>Built a state machine system that routes user questions to different modules based on question intent and conversation context.</li>
-<li>Integrated Grafana, New Relic, and Prometheus for logging and monitoring API requests and responses.</li>
+<li>Created a text+pose guided image generation system using latent diffusion models (ControlNet with Stable diffusion weights).</li>
+<li>Added noise and performed latent interpolation on best pair human face images to generate high-resolution morphs.</li>
+<li>Generated images at different noise levels and selected the best candidate by computing CLIP similarity scores for fixed prompts.</li>
+<li>Developed an image manipulation detection system to detect, localize, and label tampered parts in news articles. \hyperlink{https://github.com/abhinine4/news_forensics/blob/main/Kumar%2CAbhishek.pdf}{Thesis}</li>
+<li>Trained a CNN model with a Resnet-50 backbone to detect jpeg compression errors in tampered images with 93% accuracy.</li>
+<li>Utilized NEDB-Net to extract noise and edge-based features to localize and get manipulation masks for the tampered regions.</li>
+<li>Fine-tuned a custom Yolo-v8 model to detect objects in the localized regions and classify them into 18 categories.</li>
+<li>Created analytic containers to detect image text inconsistencies in multimodal news articles.</li>
+<li>Developed a text-transformer tool to perform controlled named entity and parts of speech replacements in texts using SpaCy.</li>
+<li>Extracted text from images using Paddle OCR and developed contradiction and mismatch detection algorithms to detect inconsistencies between image text and news body.</li>
 </ul>
 
                             </div>
@@ -739,13 +741,13 @@ as an applied scientist to leverage my expertise in solving complex real-world p
                         <div 
                             class="tab-pane fade bg-transparent" 
                             role="tabpanel"
-                            id='pills-A2IL-(now-IAD)-Sept-2022---Feb-2024'
-                            aria-labelledby='pills-A2IL-(now-IAD)-Sept-2022---Feb-2024-tab'
+                            id='pills-A2IL-Sept-2022---Feb-2024'
+                            aria-labelledby='pills-A2IL-Sept-2022---Feb-2024-tab'
                         >
                             <div>
                                 <span class="h4">Computer Vision Researcher</span>
                                 <small>-</small>
-                                <a href="https://www.buffalo.edu/ai-data-science.html" target="_blank">A2IL (now IAD)</a>
+                                <a href="https://www.buffalo.edu/ai-data-science.html" target="_blank">A2IL</a>
                                 
                                 <div class="pb-1">
                                     <small>Sept 2022 - Feb 2024</small>
@@ -755,7 +757,7 @@ as an applied scientist to leverage my expertise in solving complex real-world p
                                             style="cursor: pointer;" 
                                             data-bs-toggle="tooltip" 
                                             data-bs-placement="top" 
-                                            data-bs-original-title=Worked&#32;as&#32;a&#32;Computer&#32;Vision&#32;Researcher&#32;at&#32;A2IL&#32;(now&#32;IAD)
+                                            data-bs-original-title=Worked&#32;as&#32;a&#32;Computer&#32;Vision&#32;Researcher&#32;at&#32;A2IL
                                         > 
                                             <i class="fas fa-info-circle fa-xs"></i>
                                         </span>
