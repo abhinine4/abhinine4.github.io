@@ -169,6 +169,29 @@ params:
           - Built a state machine system that routes user questions to different modules based on question intent and conversation context.
           - Integrated Grafana, New Relic, and Prometheus for logging and monitoring API requests and responses.
 
+      - job: "Senior Data Scientist"
+        company: "Mobikwik"
+        companyUrl: "https://www.mobikwik.com/"
+        date: "Feb 2024 - Present"
+        info:
+          enable: true
+          content: "Location: Gurgaon, HR"
+        featuredLink:
+          enable: false
+          url: "https://www.mobikwik.com/"
+        info:
+          content:
+        content: |-
+          Gurgaon, Haryana
+          - Developed a financial advisory chatbot based on user transactional patterns using Langchain, MongoDB, Django, and LLMs. 
+          - Created a multiclass scope checker module that classifies questions and provides standard responses for out-of-scope questions.
+          - Developed a RAG pipeline with a question2mongo query generation module that prompts LLM models with extracted information from question and parameter mappings to generate mongo query required to retrieve custom user data.
+          - Utilized Weaviate DB as a caching system to cache templated queries and metadata to lower system latency and reduce API cost.
+          - Added few shot prompting and user-level feedback to improve query generation accuracy.
+          - Designed a text manipulator system that takes in users' transactional categories, subcategories, banks, payment modes, and merchants to create similar follow-up questions for user engagement.
+          - Built a state machine system that routes user questions to different modules based on question intent and conversation context.
+          - Integrated Grafana, New Relic, and Prometheus for logging and monitoring API requests and responses.
+
       - job: "Computer Vision Researcher"
         company: "A2IL (now IAD)"
         companyUrl: "https://www.buffalo.edu/ai-data-science.html"
