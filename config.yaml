@@ -169,20 +169,20 @@ params:
           - Built a state machine system that routes user questions to different modules based on question intent and conversation context.
           - Integrated Grafana, New Relic, and Prometheus for logging and monitoring API requests and responses.
 
-      - job: "Senior Data Scientist"
-        company: "Mobikwik"
-        companyUrl: "https://www.mobikwik.com/"
-        date: "Feb 2024 - Present"
+      - job: "Computer Vision Researcher"
+        company: "A2IL (now IAD)"
+        companyUrl: "https://www.buffalo.edu/ai-data-science.html"
+        date: "Sept 2022 - Feb 2024"
         info:
           enable: true
-          content: "Location: Gurgaon, HR"
+          content: "Location: Buffalo, NY"
         featuredLink:
           enable: false
-          url: "https://www.mobikwik.com/"
+          url: "https://www.buffalo.edu/ai-data-science.html"
         info:
           content:
         content: |-
-          Gurgaon, Haryana
+          Buffalo, New York
           - Developed a financial advisory chatbot based on user transactional patterns using Langchain, MongoDB, Django, and LLMs. 
           - Created a multiclass scope checker module that classifies questions and provides standard responses for out-of-scope questions.
           - Developed a RAG pipeline with a question2mongo query generation module that prompts LLM models with extracted information from question and parameter mappings to generate mongo query required to retrieve custom user data.
