@@ -183,17 +183,19 @@ params:
           content:
         content: |-
           Buffalo, New York
-          - Developed a financial advisory chatbot based on user transactional patterns using Langchain, MongoDB, Django, and LLMs. 
-          - Created a multiclass scope checker module that classifies questions and provides standard responses for out-of-scope questions.
-          - Developed a RAG pipeline with a question2mongo query generation module that prompts LLM models with extracted information from question and parameter mappings to generate mongo query required to retrieve custom user data.
-          - Utilized Weaviate DB as a caching system to cache templated queries and metadata to lower system latency and reduce API cost.
-          - Added few shot prompting and user-level feedback to improve query generation accuracy.
-          - Designed a text manipulator system that takes in users' transactional categories, subcategories, banks, payment modes, and merchants to create similar follow-up questions for user engagement.
-          - Built a state machine system that routes user questions to different modules based on question intent and conversation context.
-          - Integrated Grafana, New Relic, and Prometheus for logging and monitoring API requests and responses.
+          - Created a text+pose guided image generation system using latent diffusion models (ControlNet with Stable diffusion weights). 
+          - Added noise and performed latent interpolation on best pair human face images to generate high-resolution morphs.
+          - Generated images at different noise levels and selected the best candidate by computing CLIP similarity scores for fixed prompts.
+          - Developed an image manipulation detection system to detect, localize, and label tampered parts in news articles. \hyperlink{https://github.com/abhinine4/news_forensics/blob/main/Kumar\%2CAbhishek.pdf}{Thesis}
+          - Trained a CNN model with a Resnet-50 backbone to detect jpeg compression errors in tampered images with 93% accuracy.
+          - Utilized NEDB-Net to extract noise and edge-based features to localize and get manipulation masks for the tampered regions.
+          - Fine-tuned a custom Yolo-v8 model to detect objects in the localized regions and classify them into 18 categories.
+          - Created analytic containers to detect image text inconsistencies in multimodal news articles.
+          - Developed a text-transformer tool to perform controlled named entity and parts of speech replacements in texts using SpaCy.
+          - Extracted text from images using Paddle OCR and developed contradiction and mismatch detection algorithms to detect inconsistencies between image text and news body.
 
       - job: "Computer Vision Researcher"
-        company: "A2IL (now IAD)"
+        company: "A2IL"
         companyUrl: "https://www.buffalo.edu/ai-data-science.html"
         date: "Sept 2022 - Feb 2024"
         info:
