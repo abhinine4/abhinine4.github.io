@@ -94,7 +94,7 @@ params:
   # Hero
   hero:
     enable: true
-    intro: "Hi there! I'm "
+    intro: "(Updated on: 20-AUG-2023) Hi there! I'm "
     title: "Abhishek Kumar"
     subtitle: "Are you looking for a creative and focused person that loves to take initiatives? Look no further"
     content: "I am a Computer Vision Engineer with a strong background in Computer Science and Machine Learning. I am proficient in developing and implementing computer vision algorithms for a variety of applications, including image recognition, object detection, and image segmentation. I build most frequently with Python, C++, PyTorch."
