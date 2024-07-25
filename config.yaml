@@ -186,7 +186,7 @@ params:
           - Created a text+pose guided image generation system using latent diffusion models (ControlNet with Stable diffusion weights). 
           - Added noise and performed latent interpolation on best pair human face images to generate high-resolution morphs.
           - Generated images at different noise levels and selected the best candidate by computing CLIP similarity scores for fixed prompts.
-          - Developed an image manipulation detection system to detect, localize, and label tampered parts in news articles. \hyperlink{https://github.com/abhinine4/news_forensics/blob/main/Kumar\%2CAbhishek.pdf}{Thesis}
+          - Developed an image manipulation detection system to detect, localize, and label tampered parts in news articles.
           - Trained a CNN model with a Resnet-50 backbone to detect jpeg compression errors in tampered images with 93% accuracy.
           - Utilized NEDB-Net to extract noise and edge-based features to localize and get manipulation masks for the tampered regions.
           - Fine-tuned a custom Yolo-v8 model to detect objects in the localized regions and classify them into 18 categories.
