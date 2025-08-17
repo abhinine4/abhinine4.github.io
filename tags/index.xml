@@ -11,8 +11,43 @@
     </image>
     <generator>Hugo -- 0.147.9</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 09 Aug 2025 00:54:08 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 17 Aug 2025 00:54:08 +0530</lastBuildDate>
     <atom:link href="https://abhinine4.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Geometric Encoding</title>
+      <link>https://abhinine4.github.io/tags/geometric-encoding/</link>
+      <pubDate>Sun, 17 Aug 2025 00:54:08 +0530</pubDate>
+      <guid>https://abhinine4.github.io/tags/geometric-encoding/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Positional Encoding</title>
+      <link>https://abhinine4.github.io/tags/positional-encoding/</link>
+      <pubDate>Sun, 17 Aug 2025 00:54:08 +0530</pubDate>
+      <guid>https://abhinine4.github.io/tags/positional-encoding/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RoFormer</title>
+      <link>https://abhinine4.github.io/tags/roformer/</link>
+      <pubDate>Sun, 17 Aug 2025 00:54:08 +0530</pubDate>
+      <guid>https://abhinine4.github.io/tags/roformer/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RoPE</title>
+      <link>https://abhinine4.github.io/tags/rope/</link>
+      <pubDate>Sun, 17 Aug 2025 00:54:08 +0530</pubDate>
+      <guid>https://abhinine4.github.io/tags/rope/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rotary</title>
+      <link>https://abhinine4.github.io/tags/rotary/</link>
+      <pubDate>Sun, 17 Aug 2025 00:54:08 +0530</pubDate>
+      <guid>https://abhinine4.github.io/tags/rotary/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Decoding</title>
       <link>https://abhinine4.github.io/tags/decoding/</link>

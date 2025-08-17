@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on Spacebar</title>
-    <link>https://abhinine4.github.io/posts/</link>
-    <description>Recent content in Posts on Spacebar</description>
+    <title>RoFormer on Spacebar</title>
+    <link>https://abhinine4.github.io/tags/roformer/</link>
+    <description>Recent content in RoFormer on Spacebar</description>
     <image>
       <title>Spacebar</title>
       <url>https://abhinine4.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
@@ -12,21 +12,13 @@
     <generator>Hugo -- 0.147.9</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 17 Aug 2025 00:54:08 +0530</lastBuildDate>
-    <atom:link href="https://abhinine4.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://abhinine4.github.io/tags/roformer/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Understanding Rotary Positional Enbeddings (RoPE)</title>
       <link>https://abhinine4.github.io/posts/tech/rope/</link>
       <pubDate>Sun, 17 Aug 2025 00:54:08 +0530</pubDate>
       <guid>https://abhinine4.github.io/posts/tech/rope/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Rotary Position Embedding (RoPE)&lt;/strong&gt; is an advanced technique for encoding positional information within transformer-based language models. Unlike traditional positional embeddings that add or concatenate position vectors, RoPE introduces position by rotating the query and key vectors in multi-dimensional space. This geometric approach enables transformers to capture both absolute and relative positions more effectively, especially for long sequences. In this article, we’ll cover the motivation behind RoPE, its mathematical foundation, key advantages, and practical implementation.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Speculative Decoding for LLMs</title>
-      <link>https://abhinine4.github.io/posts/tech/speculative_decoding/</link>
-      <pubDate>Sat, 09 Aug 2025 00:54:08 +0530</pubDate>
-      <guid>https://abhinine4.github.io/posts/tech/speculative_decoding/</guid>
-      <description>&lt;h2 id=&#34;speculative-decoding&#34;&gt;Speculative Decoding&lt;/h2&gt;
-&lt;p&gt;Speculative decoding is an innovative optimization technique designed to accelerate the inference process in large language models (LLMs) without compromising the quality of the output. It achieves this by generating multiple tokens in parallel and incorporating a verification mechanism to ensure the correctness of these speculated tokens, thereby guaranteeing that the overall output is identical to that of vanilla decoding. This approach significantly reduces the cost of generative AI and increases its adoption by optimizing the cost of inference of LLMs.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
